@@ -6,19 +6,21 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebsiteV1.Controllers
 {
-    public class ShopPageController : Controller
+    public class CustomerController : Controller
     {
         public IActionResult Index()
         {
             return View();
         }
-        public IActionResult Medals()
+
+        public IActionResult LoginPage()
         {
             return View();
         }
-        public IActionResult Badges()
+
+        public IActionResult Login()
         {
-            return View();
+            return Content("On Succeed");
         }
     }
 }

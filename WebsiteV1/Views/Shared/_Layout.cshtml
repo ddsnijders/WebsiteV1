@@ -31,15 +31,14 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li><a asp-area="" asp-controller="ShopPageController" asp-action="Orders">Orders</a></li>
-                    <li><a asp-area="" asp-controller="ShopPageController" asp-action="Medals">Medals</a></li>
-                    <li><a asp-area="" asp-controller="ShopPageController" asp-action="Badges">Badges</a></li>
+                    <li><a asp-area="" asp-controller="ShopPage" asp-action="Medals">Medals</a></li>
+                    <li><a asp-area="" asp-controller="ShopPage" asp-action="Badges">Badges</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
                     <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
                 </ul>
                 <div style="padding-left:50px; float:right">
                     <ul class="nav navbar-nav">
-                        <li><a asp-controller="">Login</a></li>
+                        <li><a asp-controller="Account" asp-action="Login">Login</a></li>
                     </ul>
                 </div>
             </div>
