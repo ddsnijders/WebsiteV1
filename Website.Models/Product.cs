@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Drawing;
+using System.Text;
 
-namespace WebsiteV1.Models.Products
+namespace Website.Models
 {
     public abstract class Product
     {

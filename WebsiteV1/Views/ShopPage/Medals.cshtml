@@ -1,7 +1,32 @@
-﻿
+﻿@using WebsiteV1.Models
+@model WebsiteV1.Models.ShopPage.ProductViewModel;
+
+<style>
+    .flex-container{
+        display: flex;
+        justify-content:space-between;
+        flex-wrap:wrap;
+    }
+    .flex-container > div{
+        background-color:#f1f1f1;
+        width:300px;
+        height:400px;
+        margin:10px;
+        min-width:300px;
+        text-align:center;
+    }
+</style>
+
 @{
     ViewData["Title"] = "Medals";
 }
 
 <h2>Medals</h2>
+
+<div class="flex-container">
+    @foreach(Website.Models.Medal medal in Model.Products)
+    {
+        <div>@medal.Name</div>
+    }
+</div>
 

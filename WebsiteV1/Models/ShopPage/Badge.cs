@@ -7,11 +7,12 @@ namespace WebsiteV1.Models.Products
 {
     public class Badge : Product
     {
-        public Badge(string name, string description, decimal price)
+        public Badge(string name, string description, decimal price, int id)
         {
             Name = name;
             Description = description;
             Price = price;
+            ID = id;
         }
     }
 }

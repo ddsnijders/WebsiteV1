@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.Text;
 
-namespace WebsiteV1.Models.Products
+namespace Website.Models
 {
-    public class Medal : Product
+    public class Badge : Product
     {
-        public Medal(string name, string description, decimal price, int id)
+        public Badge(string name, string description, decimal price, int id)
         {
             Name = name;
             Description = description;

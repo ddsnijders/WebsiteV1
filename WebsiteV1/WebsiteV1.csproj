@@ -15,4 +15,9 @@
     <Folder Include="Views\Customer\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Website.Logic\Website.Logic.csproj" />
+    <ProjectReference Include="..\Website.Models\Website.Models.csproj" />
+  </ItemGroup>
+
 </Project>
